@@ -1,0 +1,91 @@
+// 向下滑入
+@keyframes slideInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// 淡入、向上滑入
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// 淡入、向上滑入，幅度更大
+@keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// 标题放大效果
+@keyframes titleScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+// 头像晃动效果
+@keyframes author-avatar-shake {
+  0% {
+    transform: scale(1);
+  }
+
+  10%,
+  20% {
+    transform: scale(0.9) rotate(3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: scale(1.1) rotate(-3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    transform: scale(1.1) rotate(3deg);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+// 模糊效果
+@keyframes blur {
+  0% {
+    filter: blur(10px);
+  }
+
+  100% {
+    filter: blur(0);
+  }
+}

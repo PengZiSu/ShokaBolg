@@ -1,0 +1,44 @@
+{
+  "name": "admin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@kangc/v-md-editor": "^2.3.18",
+    "@vueuse/core": "^10.8.0",
+    "axios": "^1.6.7",
+    "echarts": "^5.5.0",
+    "element-plus": "^2.5.5",
+    "file-saver": "^2.0.5",
+    "image-conversion": "^2.1.1",
+    "js-cookie": "^3.0.5",
+    "nprogress": "^0.2.0",
+    "path": "^0.12.7",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persist": "^1.0.0",
+    "prismjs": "^1.29.0",
+    "sass": "^1.71.0",
+    "tippy.js": "^6.3.7",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.26.0",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-prismjs": "^0.0.11",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5",
+    "vue3-calendar-heatmap": "^2.0.5",
+    "vuex": "^4.1.0",
+    "vuex-persistedstate": "^4.1.0",
+    "yaml": "^2.4.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "vite": "^5.1.0",
+    "vite-plugin-svg-icons": "^2.0.1"
+  }
+}

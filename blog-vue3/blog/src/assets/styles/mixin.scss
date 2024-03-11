@@ -1,0 +1,32 @@
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@mixin hover-card {
+  box-shadow: var(--shadow-3);
+
+  &:hover {
+    box-shadow: 0 0 2rem var(--shadow-color);
+    scale: 1.005 1.005;
+  }
+}
+
+@mixin none-select {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+@mixin can-select {
+  user-select: text;
+  -moz-user-select: text;
+  -webkit-user-select: text;
+}
